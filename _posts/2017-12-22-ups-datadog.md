@@ -8,7 +8,7 @@ Once the UPS was installed and properly functioning we began the gradual process
 
 ## Step One: Slack Notifications
 
-At CSH we have a Slack channel dedicated to monitoring notifications. Our system administrators have notification enabled for this channel and when something is posted, we are all alerted. The Network Management Card (NMC) plugged into the UPS has the ability to send notification emails when faults or events occur, so I configured a [Slack Email Integration](https://get.slack.help/hc/en-us/articles/206819278-Send-emails-to-Slack#connect-the-email-app-to-your-workspace) and pointed these alert emails to the forwarding email Slack provides. Now, when an alert is generated it is sent to Slack and is posted in `#monitoring`. 
+At CSH we have a Slack channel dedicated to monitoring notifications. Our system administrators have notifications enabled for this channel and when something is posted, we are all alerted. The Network Management Card (NMC) plugged into the UPS has the ability to send notification emails when faults or events occur, so I configured a [Slack Email Integration](https://get.slack.help/hc/en-us/articles/206819278-Send-emails-to-Slack#connect-the-email-app-to-your-workspace) and pointed these alert emails to the forwarding email Slack provides. Now, when an alert is generated it is sent to Slack and posted in `#monitoring`. 
 
 ## Step Two: Actual Data
 
